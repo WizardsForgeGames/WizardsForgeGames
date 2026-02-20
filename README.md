@@ -13,8 +13,9 @@ I build custom tools and optimizations for real-time 3D — CUDA kernels, quanti
 
 ### Open Source
 
+- [SparseMMA](https://github.com/WizardsForgeGames/SparseMMA) — INT8 Sparse Tensor Core GEMM for PyTorch, built for Windows. Hand-rolled PTX `mma.sp` kernels hitting 263 TOPS on RTX 4090.
 - [Hunyuan3D-Tools](https://github.com/WizardsForgeGames/Hunyuan3D-Tools) — Performance-tuned image-to-3D pipeline with custom INT8 and sparse Tensor Core CUDA kernels
 
 ---
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/thewizardsforge)
+[\![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/thewizardsforge)
