@@ -18,4 +18,4 @@ I build custom tools and optimizations for real-time 3D — CUDA kernels, quanti
 
 ---
 
-[\![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/thewizardsforge)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/thewizardsforge)
