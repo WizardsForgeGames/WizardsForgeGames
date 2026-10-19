@@ -1,21 +1,23 @@
-# Hey, I'm Darren
+# Darren Sander
 
-Independent game developer and GPU programming enthusiast.
+GPU engineer in Tokyo. I write CUDA, PTX and HLSL for my own engine and ML projects, profile with Nsight Compute and
+NvPerf, and check every optimization against a numerical reference.
 
-I build custom tools and optimizations for real-time 3D — CUDA kernels, quantization pipelines, and anything that squeezes more out of the hardware. Currently working on a game project and open-sourcing useful tools along the way.
+### Open source
 
-### What I'm into
+- **[sparsemma](https://github.com/WizardsForgeGames/sparsemma)** — 2:4-sparse INT8 Tensor Core GEMM for PyTorch on Windows,
+  where PyTorch's own semi-structured sparsity backends don't ship. Hand-written PTX `mma.sp`, fused dequant + bias;
+  1.3–1.5x faster than cuBLAS FP16 at large batch with 69% less weight memory (RTX 4090).
+- **[Hunyuan3D-Tools](https://github.com/WizardsForgeGames/Hunyuan3D-Tools)** — Hunyuan3D-2.1 image-to-PBR-3D on a single
+  24 GB RTX 4090 with custom INT8 Tensor Core kernels; ~80 s per model end-to-end.
 
-- Custom CUDA kernels (Tensor Core GEMM, Sparse TC, PTX intrinsics)
-- GPU performance optimization and profiling
-- 3D asset pipelines and tooling
-- Game engine development (DirectX, DXR raytracing)
+These are tools I built for my own projects and share in case they're useful. They get updated when I pick them up again.
 
-### Open Source
+### Other work
 
-- [SparseMMA](https://github.com/WizardsForgeGames/SparseMMA) — INT8 Sparse Tensor Core GEMM for PyTorch, built for Windows. Hand-rolled PTX `mma.sp` kernels hitting 263 TOPS on RTX 4090.
-- [Hunyuan3D-Tools](https://github.com/WizardsForgeGames/Hunyuan3D-Tools) — Performance-tuned image-to-3D pipeline with custom INT8 and sparse Tensor Core CUDA kernels
+- **Crucible** — C++/DirectX 12 voxel engine with a wavefront DXR path tracer (ReSTIR, DLSS Ray Reconstruction, NRD, SHARC)
+  and GPU FLIP fluids. Private, in development since 2018.
 
----
+### Interests
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/thewizardsforge)
+CUDA and PTX kernels · INT8 / sparse quantization · GPU profiling · real-time path tracing · game engines
