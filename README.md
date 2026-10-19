@@ -20,4 +20,4 @@ These are tools I built for my own projects and share in case they're useful. Th
 
 ### Interests
 
-CUDA and PTX kernels · INT8 / sparse quantization · GPU profiling · real-time path tracing · game engines
+Graphics programming ·· Game engines · Game Development · Machine learning · GPU compute · CUDA and PTX kernels · Algorithmic optimization · GPU profiling · Real-time path tracing 
